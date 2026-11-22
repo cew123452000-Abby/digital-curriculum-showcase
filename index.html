@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="數位工具融入校訂課程設計創新與評量成果網站，展示教案、簡報、學習單、影音、互動網頁與遊戲作品。">
+  <meta name="theme-color" content="#075985">
+  <title>數位工具融入校訂課程設計創新與評量｜成果網站</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#showcase">跳到成果內容</a>
+
+  <header class="hero">
+    <nav class="topbar" aria-label="主要導覽">
+      <a class="brand" href="#top" aria-label="回到頁首">
+        <span class="brand-mark" aria-hidden="true">西莒</span>
+        <span class="brand-name">數位工具融入校訂課程設計創新與評量<br><small>成果網站</small></span>
+      </a>
+      <div class="nav-links">
+        <a href="#about">網站介紹</a>
+        <a href="#showcase">課程成果</a>
+      </div>
+    </nav>
+
+    <div class="hero-collage" id="top" role="group" aria-label="西莒海景、港灣與夕陽照片拼貼">
+      <figure class="collage-photo collage-sea-wide">
+        <img src="assets/xiju-sea-01.jpg" alt="西莒晴朗天空與湛藍海灣">
+      </figure>
+      <figure class="collage-photo collage-clouds">
+        <img src="assets/xiju-sea-02.jpg" alt="西莒海面與層疊雲景">
+      </figure>
+      <figure class="collage-photo collage-sunset-wide">
+        <img src="assets/xiju-sunset-02.jpg" alt="夕陽落在海平面與遠山之間">
+      </figure>
+      <figure class="collage-photo collage-harbor">
+        <img src="assets/xiju-harbor.jpg" alt="俯瞰西莒港灣與碼頭">
+      </figure>
+      <figure class="collage-photo collage-sunset-soft">
+        <img src="assets/xiju-sunset-01.jpg" alt="金橘色晚霞映照西莒海面">
+      </figure>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="eyebrow">馬祖西莒・島嶼教育現場</p>
+      <h1>數位工具融入校訂課程設計創新與評量</h1>
+      <p class="hero-subtitle">成果網站</p>
+      <div class="hero-stats" aria-label="成果統計">
+        <div><strong>10</strong><span>課程主題</span></div>
+        <div><strong>46</strong><span>作品連結</span></div>
+        <div><strong>7</strong><span>成果類型</span></div>
+      </div>
+      <a class="primary-cta" href="#showcase">瀏覽課程成果</a>
+    </div>
+    <div class="wave" aria-hidden="true"></div>
+  </header>
+
+  <main>
+    <section class="intro" id="about" aria-labelledby="about-title">
+      <div class="section-heading">
+        <p class="kicker">從海島出發的課程創作</p>
+        <h2 id="about-title">每一份作品，都是教學現場的真實實踐</h2>
+      </div>
+      <p>本網站彙整教師的課程設計成果。選擇課程主題或作品類型，即可開啟教案、簡報、學習單、短影音、影片、互動網頁與遊戲。原始資料未提供的項目會清楚標示，不另行補造。</p>
+    </section>
+
+    <section class="showcase" id="showcase" aria-labelledby="showcase-title">
+      <div class="section-heading left">
+        <p class="kicker">課程成果一覽</p>
+        <h2 id="showcase-title">探索教師的數位課程作品</h2>
+      </div>
+
+      <div class="toolbar" aria-label="成果搜尋與篩選">
+        <label class="search-field">
+          <span>搜尋課程或設計者</span>
+          <input id="searchInput" type="search" placeholder="例如：小記者、音樂、寫作" autocomplete="off">
+        </label>
+        <label class="filter-field">
+          <span>作品類型</span>
+          <select id="typeFilter">
+            <option value="all">全部類型</option>
+            <option value="簡報">簡報</option>
+            <option value="教案">教案</option>
+            <option value="短影音">短影音</option>
+            <option value="學習單">學習單</option>
+            <option value="影片">影片</option>
+            <option value="遊戲">遊戲</option>
+            <option value="互動網頁">互動網頁</option>
+          </select>
+        </label>
+        <button id="resetButton" class="secondary-button" type="button">清除篩選</button>
+      </div>
+
+      <p id="resultSummary" class="result-summary" aria-live="polite"></p>
+      <div id="courseGrid" class="course-grid"></div>
+      <div id="emptyState" class="empty-state" hidden>
+        <h3>目前沒有符合條件的成果</h3>
+        <p>請更換關鍵字或清除篩選條件。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <strong>數位工具融入校訂課程設計創新與評量｜成果網站</strong>
+      <p>西莒島嶼教育 × 數位課程設計</p>
+    </div>
+    <a href="#top">回到頁首</a>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
