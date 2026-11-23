@@ -129,9 +129,8 @@ function courseCard(course, index) {
     ? `<a class="designer" href="${course.profile}" target="_blank" rel="noopener noreferrer" aria-label="開啟${escapeHtml(course.designer)}的作品首頁">設計者｜${escapeHtml(course.designer)}</a>`
     : `<span class="designer">設計者｜${escapeHtml(course.designer)}</span>`;
 
-  const links = resourceTypes.map(type => {
+  const links = available.map(type => {
     const url = course.resources[type];
-    if (!url) return `<span class="resource-missing" aria-label="${type}尚未提供"><span class="resource-icon" aria-hidden="true">${icons[type]}</span>${type}｜尚未提供</span>`;
     return `<a class="resource-link" href="${url}" target="_blank" rel="noopener noreferrer"><span class="resource-icon" aria-hidden="true">${icons[type]}</span>開啟${type}</a>`;
   }).join("");
 
