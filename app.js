@@ -71,6 +71,7 @@ const courses = [
   {
     topic: "小記者與故事創作", designer: "宥瑄", resources: {
       "簡報": "https://padlet.com/ocean20141/115-s025nn0u1l4i55h3d35u/wish/mlNDZ3KE28nNZznG",
+      "教案": "https://padlet.com/ocean20141/115-s025nn0u1l4i55h3d35u/wish/L8KjW9BONM0YaJbv",
       "短影音": "https://padlet.com/ocean20141/115-s025nn0u1l4i55h3d35u/wish/yEPVZkRbJN9DQb0Y",
       "學習單": "https://padlet.com/ocean20141/115-s025nn0u1l4i55h3d35u/wish/lkROZP9VozOvWjMg",
       "影片": "https://padlet.com/ocean20141/115-s025nn0u1l4i55h3d35u/wish/XGyBQb3MxEj3ZL6K",
