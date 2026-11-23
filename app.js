@@ -20,6 +20,7 @@ const courses = [
       "簡報": "https://padlet.com/ma1683/padlet-s025nn0ih1tclwyb4abb/wish/goElQy5kN93GQ3yY",
       "教案": "https://padlet.com/ma1683/padlet-s025nn0ih1tclwyb4abb/wish/1xkVaqRO3NL2Ql0e",
       "短影音": "https://padlet.com/ma1683/padlet-s025nn0ih1tclwyb4abb/wish/Xb8YaLPOjemXayn1",
+      "學習單": "https://padlet.com/ma1683/padlet-s025nn0ih1tclwyb4abb/wish/E1P8aXrmngANZwA9",
       "影片": "https://padlet.com/cew12345/1151121-22-https-padlet-com-cew12345-1151121-s025mhug5pg8dmjkd4zz/wish/wKmOZ5KwEJe7azMA",
       "遊戲": "https://padlet.com/ma1683/padlet-s025nn0ih1tclwyb4abb/wish/mlNDZ3KE2YJYZznG",
       "互動網頁": "https://padlet.com/ma1683/padlet-s025nn0ih1tclwyb4abb/wish/O7A9QmRD7p3JZ6x3"
@@ -28,14 +29,18 @@ const courses = [
   {
     topic: "劇本賞析到大作家", designer: "靖章老師", resources: {
       "簡報": "https://padlet.com/lcc0001/padlet-s025nn3614nrhn3fghx1/wish/mlNDZ3KE28eAZznG",
+      "教案": "https://padlet.com/lcc0001/padlet-s025nn3614nrhn3fghx1/wish/PR3NWxyklRm9ab0O",
       "短影音": "https://padlet.com/lcc0001/padlet-s025nn3614nrhn3fghx1/wish/AL83WzvkOdL8W0Pg",
+      "學習單": "https://padlet.com/lcc0001/padlet-s025nn3614nrhn3fghx1/wish/v3w8Zwxk21mgWN52",
       "影片": "https://padlet.com/lcc0001/padlet-s025nn3614nrhn3fghx1/wish/XGyBQb3MxDr0ZL6K",
-      "遊戲": "https://padlet.com/lcc0001/padlet-s025nn3614nrhn3fghx1/wish/E851Q0Kpdj7daVAb"
+      "遊戲": "https://padlet.com/lcc0001/padlet-s025nn3614nrhn3fghx1/wish/E851Q0Kpdj7daVAb",
+      "互動網頁": "https://padlet.com/lcc0001/padlet-s025nn3614nrhn3fghx1/wish/AL83WzvNJJlzW0Pg"
     }
   },
   {
     topic: "捻花惹草", designer: "喬湞老師", resources: {
       "簡報": "https://padlet.com/t0125ninakuo888/qq-s025nn0i2eg6o1m5qcbr/wish/9kmlZV23xemAZpgV",
+      "教案": "https://padlet.com/t0125ninakuo888/qq-s025nn0i2eg6o1m5qcbr/wish/O7A9QmRD7YonZ6x3",
       "短影音": "https://padlet.com/t0125ninakuo888/qq-s025nn0i2eg6o1m5qcbr/wish/j40PQD7wjwdjavXB",
       "學習單": "https://padlet.com/t0125ninakuo888/qq-s025nn0i2eg6o1m5qcbr/wish/LNV1Q7KpVkzrQmq3",
       "影片": "https://padlet.com/t0125ninakuo888/qq-s025nn0i2eg6o1m5qcbr/wish/lkDVaKDNr1eRQPp9",
@@ -47,6 +52,7 @@ const courses = [
     topic: "臺灣的史前時代與大航海時代", designer: "芷霓老師", profile: "https://padlet.com/ma9260", resources: {
       "教案": "https://padlet.com/ma9260/padlet-n7kijs6hrnhdddvz/wish/BJkrQA1zezJwQEge",
       "短影音": "https://padlet.com/ma9260/padlet-n7kijs6hrnhdddvz/wish/L8KjW9BONOmoaJbv",
+      "學習單": "https://padlet.com/ma9260/padlet-n7kijs6hrnhdddvz/wish/KxJvagRxAmjpWAg0",
       "影片": "https://padlet.com/ma9260/padlet-n7kijs6hrnhdddvz/wish/wKmOZ5KwEJ3eazMA",
       "遊戲": "https://padlet.com/ma9260/padlet-n7kijs6hrnhdddvz/wish/j40PQD7wj5ezavXB",
       "互動網頁": "https://padlet.com/ma9260/padlet-n7kijs6hrnhdddvz/wish/kxodWG5AOdpEQgP7"
@@ -56,6 +62,7 @@ const courses = [
     topic: "一年級寫日記", designer: "蔡10", resources: {
       "簡報": "https://padlet.com/howpai/115-1-s025nn0zqt71w6uaxyhk/wish/J24jalRdwDn4Z0A1",
       "教案": "https://padlet.com/howpai/115-1-s025nn0zqt71w6uaxyhk/wish/BJkrQA1zezp2QEge",
+      "短影音": "https://padlet.com/howpai/115-1-s025nn0zqt71w6uaxyhk/wish/E1P8aXrmng85ZwA9",
       "學習單": "https://padlet.com/howpai/115-1-s025nn0zqt71w6uaxyhk/wish/x5m7aoRjyjJGWkAV",
       "影片": "https://padlet.com/howpai/115-1-s025nn0zqt71w6uaxyhk/wish/lkDVaKDNrBGwQPp9",
       "遊戲": "https://padlet.com/howpai/115-1-s025nn0zqt71w6uaxyhk/wish/PR3NWxyklEB3ab0O"
@@ -76,6 +83,7 @@ const courses = [
       "簡報": "https://padlet.com/ma5204/padlet-s025nmuwy135rtaqfxel/wish/0BA3ZpRJMLLxanPb",
       "教案": "https://padlet.com/ma5204/padlet-s025nmuwy135rtaqfxel/wish/Xb8YaLPOjOqVayn1",
       "短影音": "https://padlet.com/ma5204/padlet-s025nmuwy135rtaqfxel/wish/R7dXadKVqJVyW6bl",
+      "學習單": "https://u1.padletusercontent.com/uploads/padlet-uploads-usc1/3108266140/55cebcd4c0332dcb00af1fdc7cd181b5/___.pdf?token=r2pTLdeOSvz9LSBQFJ6o6AKDbJDMjdWg9_stHwzkV1O-hS0yhO1JZtznA65w7B2SrB52OOW01VAhwjnfpuknEukDCKZEJzDADDlDyLwo4EB85YySEEXU3s9MZZWGM2TIfMuAqlXFkM-HcFOlihjZSAzdfcERagxeXzCs0lJCd5a8eiVt_UJKBaiUVzFxLLcMZYsuYDwArZjZ8Fy7-MIjIloi5T_I1Cq1JeBZ77bJeqQYkbvgZTMdttzVWpshL1wH",
       "影片": "https://padlet.com/ma5204/padlet-s025nmuwy135rtaqfxel/wish/e9YpQNXNzzYAWxjM",
       "遊戲": "https://padlet.com/ma5204/padlet-s025nmuwy135rtaqfxel/wish/mlNDZ3KE2vO0ZznG"
     }
